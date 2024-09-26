@@ -68,8 +68,10 @@ body {
   /* align-items is for aligning the element on the cross axis (vertical when main axis is horizontal) */
   /* try */
   /* flex-start, flex-end, center,baseline */
-  align-items: flex-start;
-
+  /* align-items: flex-start; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   /* by default, flex item will always try to fit in one line  */
   /* when there are more and more, the items will start crushing each other  */
   /* we can use flex-wrap: wrap; to allow items to take on a new line */
@@ -104,6 +106,7 @@ body {
   /* flex-basis: 300px; */
   /* flex combines all 3 but the last 2 are optional and will adjust responsively by default */
   /* flex: 1; */
+  /* บรรทัดบนคือการใช้รวมทั้งสามอัน flex-grow,flex-shrink,flex-basis ในบรรทัดเดียวกัน flex: 1 2 3 ตามลำดับ */
   /* try */
   /* flex-start, flex-end, center,baseline */
   /* align-self: baseline; */
